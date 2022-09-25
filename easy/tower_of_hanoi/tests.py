@@ -1,6 +1,6 @@
 import unittest
 import test_runner
-from hanoi import Hanoi
+from solution import Hanoi
 
 class Test(unittest.TestCase):
     """ Tower of Hanoi Unit Tests """
