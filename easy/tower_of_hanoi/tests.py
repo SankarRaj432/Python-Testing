@@ -26,7 +26,7 @@ class Test(unittest.TestCase):
 
     def test_hanoi_test_f(self):
         """ Exception Test 2"""
-        self.assertEqual(Hanoi(-1), 1, "Test 6 Failed")
+        self.assertEqual(Hanoi(-1), 0, "Test 6 Failed")
 
     def test_hanoi_test_g(self):
         """ Exception Test 3"""
@@ -34,7 +34,7 @@ class Test(unittest.TestCase):
 
     def test_hanoi_test_h(self):
         """ Exception Test 4"""
-        self.assertEqual(Hanoi("a"), 1, "Test 8 Failed")
+        self.assertEqual(Hanoi("a"), 0, "Test 8 Failed")
 
     def test_hanoi_test_i(self):
         """ Exception Test 5"""
